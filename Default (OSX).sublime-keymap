@@ -1,16 +1,65 @@
 [
-	{ "keys": ["super+w"], "command": "close" },
-
-	{ "keys": ["escape"], "command": "alternative_autocomplete", "context":
-	  [
-	    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-	    { "key": "overlay_visible", "operator": "equal", "operand": false }
-	  ]
-	},
-	{ "keys": ["shift+escape"], "command": "alternative_autocomplete", "args": {"cycle": "previous"}, "context":
-	  [
-	    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-	    { "key": "overlay_visible", "operator": "equal", "operand": false }
-	  ]
-	}
+  {
+    "keys": [
+      "super+w"
+    ],
+    "command": "close"
+  },
+  {
+    "keys": [
+      "escape"
+    ],
+    "command": "alternative_autocomplete",
+    "context": [
+      {
+        "key": "selection_empty",
+        "operator": "equal",
+        "operand": true,
+        "match_all": true
+      },
+      {
+        "key": "overlay_visible",
+        "operator": "equal",
+        "operand": false
+      }
+    ]
+  },
+  {
+    "keys": [
+      "shift+escape"
+    ],
+    "command": "alternative_autocomplete",
+    "args": {
+      "cycle": "previous"
+    },
+    "context": [
+      {
+        "key": "selection_empty",
+        "operator": "equal",
+        "operand": true,
+        "match_all": true
+      },
+      {
+        "key": "overlay_visible",
+        "operator": "equal",
+        "operand": false
+      }
+    ]
+  },
+  {
+    "keys": [
+      "#"
+    ],
+    "command": "insert_snippet",
+    "args": {
+      "contents": "#{${1:$TM_SELECTED_TEXT}}"
+    },
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "(string.quoted.double.ruby|string.interpolated.ruby) - string source"
+      }
+    ]
+  }
 ]
