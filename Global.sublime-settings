@@ -1,0 +1,7 @@
+// Place user-specific overrides in this file, to ensure they're preserved
+// when upgrading
+{
+	"use_simple_full_screen": true,
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".bundle", ".sass-cache", "index"],
+	"file_exclude_patterns": [".gitkeep, .DS_Store"]
+}
