@@ -1,7 +1,26 @@
-// Place user-specific overrides in this file, to ensure they're preserved
-// when upgrading
 {
+	"file_exclude_patterns":
+	[
+		".gitkeep",
+		".DS_Store",
+		"*.log",
+		"*.sassc",
+		"*.scssc"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".bundle",
+		".sass-cache",
+		"index"
+	],
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"use_simple_full_screen": true,
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".bundle", ".sass-cache", "index"],
-	"file_exclude_patterns": [".gitkeep", ".DS_Store", "*.log", "*.sassc", "*.scssc"]
+	"show_tab_close_buttons": false
 }
