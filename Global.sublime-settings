@@ -21,6 +21,6 @@
 	[
 		"Vintage"
 	],
-	"use_simple_full_screen": true,
-	"show_tab_close_buttons": false
+	"show_tab_close_buttons": false,
+	"use_simple_full_screen": true
 }
