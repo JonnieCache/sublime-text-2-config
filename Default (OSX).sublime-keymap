@@ -4,7 +4,7 @@
       "super+w"
     ],
     "command": "close"
-  },
+  }
   // {
   //   "keys": [
   //     "escape"
@@ -46,20 +46,4 @@
   //     }
   //   ]
   // },
-  {
-    "keys": [
-      "#"
-    ],
-    "command": "insert_snippet",
-    "args": {
-      "contents": "#{${1:$TM_SELECTED_TEXT}}"
-    },
-    "context": [
-      {
-        "key": "selector",
-        "operator": "equal",
-        "operand": "(string.quoted.double.ruby|string.interpolated.ruby) - string source"
-      }
-    ]
-  }
 ]
