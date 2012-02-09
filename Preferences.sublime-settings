@@ -1,0 +1,44 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_delay": 50,
+	"caret_style": "phase",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".gitkeep",
+		".DS_Store",
+		"*.log",
+		"*.sassc",
+		"*.scssc"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".bundle",
+		".sass-cache",
+		"index"
+	],
+	"font_face": "Ubuntu Mono",
+	"font_size": 12.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"save_on_focus_lost": true,
+	"show_tab_close_buttons": false,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"word_wrap": false
+}
